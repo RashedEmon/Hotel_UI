@@ -33,7 +33,11 @@ body{
     color: #999999;
     cursor: pointer;
 }
+/*Icon*/
 .icon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
     margin: 2rem;
     font-size: 2rem;
     color: #999999;
@@ -151,6 +155,7 @@ body{
     font-weight: lighter;
 }
 @media screen and (max-width: 720px) {
+
     .inImage p {
       font-size: 1em;
     }
@@ -158,8 +163,9 @@ body{
         font-size: 2em;
     }
     .link{
-
+        margin: 2rem 1rem;
         font-size: 1rem;
+        letter-spacing: 0.1rem;
     }
     .logo{
 
@@ -171,6 +177,10 @@ body{
         height: 10%;
         right: 45%;
         left: 45%;
+    }
+    .badge{
+
+        font-size: 0.75rem;
     }
 
 }
